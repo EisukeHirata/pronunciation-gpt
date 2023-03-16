@@ -1,0 +1,12 @@
+{
+  "name": "pronunciation_correction_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "dotenv -e .env -- node src/main.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
