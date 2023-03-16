@@ -4,9 +4,13 @@
   "description": "",
   "main": "src/main.js",
   "scripts": {
-    "start": "dotenv -e .env -- node src/main.js"
+    "start": "npm run dev & node server.js",
+    "dev": "lite-server"
   },
   "dependencies": {
     "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "lite-server": "^2.7.1"
   }
 }
